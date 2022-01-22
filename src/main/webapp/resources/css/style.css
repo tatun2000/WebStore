@@ -1,0 +1,96 @@
+td {
+    padding: 10px;
+    padding-left: 50px;
+  }
+#cart{
+    overflow: auto;
+    padding: 10px;
+
+    position: sticky;
+    top: 20px;
+    margin-left: 1250px;
+    min-height: 2em;
+}
+#cleanCart{
+    overflow: auto;
+    padding: 10px;
+
+    position: absolute;
+    top: 20px;
+    margin-left: 1250px;
+}
+.infoAboutGood{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #CD5C5C; /* Цвет фона */
+    color: #fc0; /* Цвет текста */
+}
+
+.buttonClean {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: brown;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.buttonClean:hover {background-color: #3e8e41}
+
+.buttonClean:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttonCart {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+.buttonCart:hover { background: rgb(53, 167, 110); }
+.buttonCart:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.infoAboutGood{
+    font-family: "Times New Roman";
+    font-size: 150%;
+}
+
+.buttonForBuy {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: darkgreen;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.buttonForBuy:hover {background-color: limegreen}
+
+.buttonForBuy:active {
+    background-color: limegreen;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
